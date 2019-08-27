@@ -27,7 +27,7 @@ public class JUnitTest{
     @Test
     public void findMinValid() {
         Integer a = 0;
-        Integer[] array4 = {0, 1, 4, 3, 2};
+        Integer[] array4 = {4, 1, 0, 3, 2};
         Integer output = Finder.findMin(array4);
         Assert.assertEquals(a, output);
     }
